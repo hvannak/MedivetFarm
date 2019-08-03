@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:id="@+id/receiptNbr"
+            android:text="TextView"
+            android:textSize="16dp"
+            android:padding="3dip" />
+
+        <TextView
+            android:id="@+id/totalCost"
+            android:text="TextView"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/date"
+            android:text="TextView"
+            android:padding="3dip" />
+
+        <TextView
+            android:id="@+id/totalQty"
+            android:text="TextView"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/description"
+            android:text="TextView"
+            android:padding="3dip" />
+
+        <TextView
+            android:id="@+id/type"
+            android:text="TextView"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout>
